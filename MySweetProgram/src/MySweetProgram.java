@@ -10,13 +10,13 @@ public class MySweetProgram {
 
 	public static void main(String[] args) throws FileNotFoundException {  
 		LinkedList<String> names = new LinkedList<String>();
-		names.add("Caleb");
-		names.add("Sue");
-		names.add("Sally");
-
+		names.push("Caleb");
+		names.push("Sue");
+		names.push("Sally");
+		
 		System.out.println(names.remove());
-		System.out.println(names.remove());
-		System.out.println(names.remove());
+		System.out.println(names.pop());
+		System.out.println(names.removeFirst());
 	}
 	
 }
