@@ -8,15 +8,17 @@ import java.util.Scanner;
 
 public class MySweetProgram {
 
-	public static void main(String[] args) throws FileNotFoundException {  
+	public static void main(String[] args) {  
+		
 		LinkedList<String> names = new LinkedList<String>();
 		names.push("Caleb");
 		names.push("Sue");
 		names.push("Sally");
 		
-		System.out.println(names.remove());
 		System.out.println(names.pop());
 		System.out.println(names.removeFirst());
+		System.out.println(names.remove());
+		
 	}
 	
 }
